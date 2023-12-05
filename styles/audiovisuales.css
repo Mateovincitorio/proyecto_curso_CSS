@@ -1,0 +1,24 @@
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria{
+    margin: 20px;
+    border: 1px solid grey;
+    float: left;
+    width: 33vw;
+    background-color: black;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.nombre{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    color: green;
+}

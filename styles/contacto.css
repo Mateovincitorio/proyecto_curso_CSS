@@ -1,0 +1,72 @@
+.contenedor{
+      background-color: #999;
+      border-radius: 10px;
+      margin: 20px 0;
+      padding: 20px;
+      width: 50%;
+      position: relative;
+      left: 25%;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px black inset ;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 2px;
+}
+
+textarea{
+    height: 213px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px black inset ;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 2px;
+}
+
+input[type="submit"]:hover{
+    background:linear-gradient(to right,rgb(211, 72, 211),rgb(0, 199, 0));
+}
+
+input[type="submit"],select{
+    cursor: pointer;
+}
+
+input:focus{
+    background:linear-gradient(to right,rgb(211, 72, 211),rgb(0, 199, 0));
+}
+.nombre::placeholder{
+    opacity:0.5;
+}
+.nombre:focus::placeholder{
+    opacity: 1;
+    color: black;
+}
+
+.mail::placeholder{
+    opacity:0.5;
+}
+.mail:focus::placeholder{
+    opacity: 1;
+    color: black;
+}
+
+
+.comentario:focus{
+    background:linear-gradient(to right,rgb(211, 72, 211),rgb(0, 199, 0));
+}
+.comentario::placeholder{
+    opacity:0.5;
+}
+.comentario:focus::placeholder{
+    opacity: 1;
+    color: black;
+}

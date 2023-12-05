@@ -1,0 +1,38 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px black solid;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+h2{
+    padding: 20px;
+    margin:0;
+}
+
+th{
+    padding: 10px;
+    border: 2px black solid;
+    margin-top: 10px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+td{
+    border: 2px black solid;
+    text-align: center;
+}
+
+tr:nth-child(even):hover{
+    background-color: aqua;
+}
+
+tr:nth-child(odd):hover{
+    background-color: rgb(4, 133, 133);
+}
